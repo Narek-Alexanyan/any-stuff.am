@@ -10,7 +10,23 @@ export default {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    screens: {
+      '2xl': { max: '1536px' },
+      xl: { max: '1279px' },
+      lg: { max: '1023px' },
+      md: { max: '767px' },
+      sm: { max: '567px' },
+      xs: { max: '420px' },
+    },
+    extend: {
+      colors: {
+        'app_bg-light': '#F4F4F4',
+        'app_bg-dark': '#1A1D1F',
+      },
+      transitionProperty: {
+        width: 'width',
+      },
+    },
   },
   plugins: [],
 };

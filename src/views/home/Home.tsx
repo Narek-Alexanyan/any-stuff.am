@@ -1,5 +1,9 @@
+import { useTranslation } from 'react-i18next';
+
 function Home() {
-  return <div>Home</div>;
+  const { t } = useTranslation();
+
+  return <div>{t('shared.hi')}</div>;
 }
 
 export default Home;

@@ -1,8 +1,10 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import appReducer from './modules/appReducer';
+import themeReducer from './modules/themeReducer';
 
 const rootReducer = combineReducers({
   app: appReducer,
+  theme: themeReducer,
 });
 
 const store = configureStore({

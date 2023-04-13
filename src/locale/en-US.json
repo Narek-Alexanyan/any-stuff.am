@@ -1,5 +1,10 @@
 {
   "shared": {
-    "hi": "Hi"
+    "hi": "Hi",
+    "locales": {
+      "en-US": "English",
+      "am-AM": "Armenian",
+      "ru-RU": "Russian"
+    }
   }
 }
