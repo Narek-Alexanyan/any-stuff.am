@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,5 +12,12 @@
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
     @apply bg-app_bg-light dark:bg-app_bg-dark;
+  }
+}
+
+@layer components {
+  .logo {
+    font-family: 'DynaPuff', cursive;
+    @apply text-black dark:text-white text-2xl;
   }
 }
