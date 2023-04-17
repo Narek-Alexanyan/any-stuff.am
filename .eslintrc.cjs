@@ -23,5 +23,6 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'no-param-reassign': 0,
     'import/extensions': 0,
+    'react/require-default-props': 0,
   },
 };

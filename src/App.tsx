@@ -8,6 +8,7 @@ import { RootState } from './store';
 import ScrollToTop from './router/ScrollToTop';
 import Home from './views/home/Home';
 import { Theme } from './application/enums/shared/Theme';
+import Navbar from './components/header/Navbar';
 
 function App() {
   const theme = useSelector<RootState>((state) => state.theme.value);
@@ -30,7 +31,7 @@ function App() {
           <title>anystuff.am</title>
         </Helmet>
       </HelmetProvider>
-
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
